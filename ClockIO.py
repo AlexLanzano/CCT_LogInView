@@ -3,11 +3,11 @@ from tkFont import Font
 import MySQLdb
 root = Tk()
 
-db =MySQLdb.connect(host = "10.0.99.126",
-                   user = "root",
-                   passwd = "!PlattsburgH12901%",
-                   db = "cct",
-                   port = 3306)
+db =MySQLdb.connect(host = "",
+                   user = "",
+                   passwd = "",
+                   db = "",
+                   port = )
 
 cur = db.cursor()
 
